@@ -30,8 +30,8 @@ class _LogInState extends State<LogIn> {
             ),
             child: new BackdropFilter(
               filter: ImageFilter.blur(
-                sigmaX: 7.0,
-                sigmaY: 7.0,
+                sigmaX: 9.0,
+                sigmaY: 9.0,
               ),
               child: new Container(
                 decoration:
@@ -104,7 +104,7 @@ class _LogInState extends State<LogIn> {
             return null;
           },
           decoration: InputDecoration(
-            hintText: '"********",',
+            hintText: '********',
             hintStyle: GoogleFonts.mcLaren(fontSize: 16),
             labelText: 'Password',
             labelStyle: GoogleFonts.mcLaren(fontSize: 16),
@@ -146,7 +146,10 @@ class _LogInState extends State<LogIn> {
         ),
         Text(
           'E-Learning',
-          style: GoogleFonts.lato(fontSize: 24),
+          style: GoogleFonts.lato(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ],
     );
