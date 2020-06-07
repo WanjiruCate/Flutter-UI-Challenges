@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:nelson_uis/ui/home.dart';
-import 'package:nelson_uis/ui/login.dart';
-import 'package:nelson_uis/utils/colors.dart';
+import 'package:nelson_uis/login1/ui/home.dart';
+import 'package:nelson_uis/login1/ui/login.dart';
+import 'package:nelson_uis/login1/utils/colors.dart';
+import 'package:nelson_uis/login2/ui/splashpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         debugShowCheckedModeBanner: false,
-        home: LogIn(),
+        home: SplashPage(),
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new HomePage(),
           '/login': (BuildContext context) => new LogIn(),
