@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nelson_uis/login3.dart/colors./colors.dart';
+import 'package:nelson_uis/login3/colors./colors.dart';
 
 class SplashPage3 extends StatefulWidget {
   @override

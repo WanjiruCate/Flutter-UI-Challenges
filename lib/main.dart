@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:nelson_uis/login1/ui/home.dart';
 import 'package:nelson_uis/login1/ui/login.dart';
-import 'package:nelson_uis/login1/utils/colors.dart';
 import 'package:nelson_uis/login2/ui/login.dart';
 import 'package:nelson_uis/login2/ui/signup.dart';
-import 'package:nelson_uis/login2/ui/splashpage.dart';
 import 'package:nelson_uis/login2/utils/colors.dart';
-import 'package:nelson_uis/login3.dart/ui/login3.dart';
-import 'package:nelson_uis/login3.dart/ui/splash_page3.dart';
+import 'package:nelson_uis/login3/ui/login3.dart';
+import 'package:nelson_uis/login3/ui/splash_page3.dart';
 
 void main() {
   runApp(MyApp());
