@@ -60,7 +60,7 @@ Login UI designs Inspiration from pinterest and Dribble
     <img src="screenshots/spalsh4_page.png" width="400"/>
 </td>
   <td style="text-align: center">
-<img src="screenshots/signup4_page.png" width="200"/>
+<img src="screenshots/signup_page4.png" width="200"/>
 </td>
 </tr>
 </table>
