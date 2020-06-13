@@ -17,23 +17,25 @@ class _Login4State extends State<Login4> {
       backgroundColor: pink2,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
-        child: Column(children: <Widget>[
-          SizedBox(height: 50),
-          _topPart(),
-          SizedBox(height: 80.0),
-          _buildEmailField(),
-          SizedBox(height: 20.0),
-          _buildPasswordField(),
-          SizedBox(height: 20.0),
-          _buildLogInButton(),
-          SizedBox(height: 0.0),
-          _rememberMe(),
-          SizedBox(height: 10.0),
-          _dontHaveAccount(),
-          SizedBox(height: 30.0),
-          _orSignUpWith(),
-          _buildFbTwitterGoogleButtons()
-        ]),
+        child: SingleChildScrollView(
+          child: Column(children: <Widget>[
+            SizedBox(height: 50),
+            _topPart(),
+            SizedBox(height: 80.0),
+            _buildEmailField(),
+            SizedBox(height: 20.0),
+            _buildPasswordField(),
+            SizedBox(height: 20.0),
+            _buildLogInButton(),
+            SizedBox(height: 0.0),
+            _rememberMe(),
+            SizedBox(height: 10.0),
+            _dontHaveAccount(),
+            SizedBox(height: 30.0),
+            _orSignUpWith(),
+            _buildFbTwitterGoogleButtons()
+          ]),
+        ),
       ),
     );
   }

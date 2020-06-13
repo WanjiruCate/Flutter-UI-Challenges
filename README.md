@@ -20,10 +20,10 @@ Login UI designs Inspiration from pinterest and Dribble
 <table>
 <tr>
 <td style="text-align: center">
-<img src="screenshots/splash_page.png" width="200"/>
+<img src="screenshots/signin_page.png" width="200"/>
 </td>
 <td style="text-align: center">
-    <img src="screenshots/signin_page.png" width="400"/>
+    <img src="screenshots/splash_page.png" width="400"/>
 </td>
   <td style="text-align: center">
 <img src="screenshots/signup_page.png" width="200"/>
@@ -41,6 +41,26 @@ Login UI designs Inspiration from pinterest and Dribble
 </td>
   <td style="text-align: center">
 <img src="screenshots/signin3_page.png" width="400"/>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+## Auth 4 UI
+
+<div style="text-align: center">
+<table>
+<tr>
+<td style="text-align: center">
+<img src="screenshots/login4_page.png" width="200"/>
+</td>
+<td style="text-align: center">
+    <img src="screenshots/spalsh4_page.png" width="400"/>
+</td>
+  <td style="text-align: center">
+<img src="screenshots/signup4_page.png" width="200"/>
 </td>
 </tr>
 </table>
