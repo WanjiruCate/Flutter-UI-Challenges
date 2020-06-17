@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           accentColor: pink2,
         ),
         debugShowCheckedModeBanner: false,
-        home: Dashboard(recordData),
+        home: ProfilePage(),
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new HomePage(),
           '/login': (BuildContext context) => new LogIn(),
