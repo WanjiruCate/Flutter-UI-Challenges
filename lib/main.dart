@@ -12,6 +12,7 @@ import 'package:nelson_uis/login4/ui/login4.dart';
 import 'package:nelson_uis/login4/ui/splashpage4.dart';
 import 'package:nelson_uis/profile_design1/ui/profile.dart';
 
+import 'bookstore/bottomNavBar.dart';
 import 'design5/ui/notifications.dart';
 import 'onboarding/onboard_ui.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           accentColor: pink2,
         ),
         debugShowCheckedModeBanner: false,
-        home: OnBoardingScreens(),
+        home: BottomNavBar(),
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new HomePage(),
           '/login': (BuildContext context) => new LogIn(),
