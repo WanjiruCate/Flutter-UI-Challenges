@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:nelson_uis/login2/utils/texts.dart';
+
 
 import 'data.dart';
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nelson_uis/login2/utils/texts.dart';
 import 'package:nelson_uis/login3/colors./colors.dart';
 
 class Login3 extends StatefulWidget {
