@@ -65,3 +65,21 @@ Login UI designs Inspiration from pinterest and Dribble
 </tr>
 </table>
 </div>
+
+## Onboarding 1 UI
+
+<div style="text-align: center">
+<table>
+<tr>
+<td style="text-align: center">
+<img src="screenshots/onboard1.png" width="200"/>
+</td>
+<td style="text-align: center">
+    <img src="screenshots/onboard2.png" width="400"/>
+</td>
+  <td style="text-align: center">
+<img src="screenshots/onboard3.png" width="200"/>
+</td>
+</tr>
+</table>
+</div>
