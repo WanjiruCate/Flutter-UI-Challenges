@@ -8,7 +8,7 @@ Login UI designs Inspiration from pinterest and Dribble
 <table>
 <tr>
 <td style="text-align: center">
-    <img src="screenshots/login.png" width="400"/>
+    <img src="screenshots/login.png" width="200"/>
 </td>
 </tr>
 </table>
