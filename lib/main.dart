@@ -13,8 +13,10 @@ import 'package:nelson_uis/login4/colors/colors.dart';
 import 'package:nelson_uis/login4/ui/login4.dart';
 import 'package:nelson_uis/login4/ui/splashpage4.dart';
 import 'package:nelson_uis/profile_design1/ui/profile.dart';
+import 'package:nelson_uis/profile_design1/ui/profile_new.dart';
 
 import 'design5/ui/notifications.dart';
+import 'onboarding/onboard_ui.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
           accentColor: pink2,
         ),
         debugShowCheckedModeBanner: false,
-        home: ProfilePage(),
+        home: OnBoardingScreens(),
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new HomePage(),
           '/login': (BuildContext context) => new LogIn(),

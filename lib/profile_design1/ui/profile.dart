@@ -15,118 +15,123 @@ class _ProfilePageState extends State<ProfilePage> {
         height: double.infinity,
         width: double.infinity,
         color: purple,
-        child: Stack(children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(top: 200.0),
-            child: Stack(
-              // alignment: Alignment.topCenter,
-              children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.only(
-                    top: circleRadius / 3.0,
-                  ),
-
-                  ///here we create space for the circle avatar to get ut of the box
-                  child: Container(
-                    height: 700.0,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.only(
-                        topRight: Radius.circular(50.0),
-                        topLeft: Radius.circular(50.0),
-                      ),
-                      color: Colors.white,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black26,
-                          blurRadius: 8.0,
-                          offset: Offset(0.0, 5.0),
-                        ),
-                      ],
+        child: Stack(
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.only(top: 200.0),
+              child: Stack(
+                // alignment: Alignment.topCenter,
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.only(
+                      top: circleRadius / 3.0,
                     ),
-                    width: double.infinity,
-                    child: Padding(
-                        padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
-                        child: SingleChildScrollView(
-                          child: Column(
-                            children: <Widget>[
-                              Container(
-                                margin: EdgeInsets.only(
-                                    top: 40, left: 16, right: 16),
-                                child: Column(
-                                  children: <Widget>[
-                                    _buildTextTitle('Profile Settings'),
-                                    _buildDivider(),
-                                    _buildTextRowMore('Theme', "Light",
-                                        Icons.arrow_forward_ios),
-                                    _buildTextRowWithSwitch(
-                                        'Send Push Notifications', false, grey),
-                                    _buildTextRowWithSwitch(
-                                        'Backups', true, purple),
-                                    _buildSpacer(40.0),
-                                    _buildTextTitle('Account'),
-                                    _buildDivider(),
-                                    _buildTextRow("Two-Factor Authentication",
-                                        Icons.arrow_forward_ios),
-                                    _buildSpacer(20.0),
-                                    _buildTextRow("Mobile Data Use",
-                                        Icons.arrow_forward_ios),
-                                    _buildSpacer(20.0),
-                                    _buildTextRowMore('Language', "Light",
-                                        Icons.arrow_forward_ios),
-                                    _buildSpacer(40.0),
-                                    _buildTextTitle('Support'),
-                                    _buildDivider(),
-                                    _buildSimpleText('Call Us'),
-                                    _buildSpacer(20.0),
-                                    _buildSimpleText('Feedback'),
-                                  ],
+
+                    ///here we create space for the circle avatar to get ut of the box
+                    child: Container(
+                      height: 700.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(50.0),
+                          topLeft: Radius.circular(50.0),
+                        ),
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 8.0,
+                            offset: Offset(0.0, 5.0),
+                          ),
+                        ],
+                      ),
+                      width: double.infinity,
+                      child: Padding(
+                          padding:
+                              const EdgeInsets.only(top: 15.0, bottom: 15.0),
+                          child: SingleChildScrollView(
+                            child: Column(
+                              children: <Widget>[
+                                Container(
+                                  margin: EdgeInsets.only(
+                                      top: 40, left: 16, right: 16),
+                                  child: Column(
+                                    children: <Widget>[
+                                      _buildTextTitle('Profile Settings'),
+                                      _buildDivider(),
+                                      _buildTextRowMore('Theme', "Light",
+                                          Icons.arrow_forward_ios),
+                                      _buildTextRowWithSwitch(
+                                          'Send Push Notifications',
+                                          false,
+                                          grey),
+                                      _buildTextRowWithSwitch(
+                                          'Backups', true, purple),
+                                      _buildSpacer(40.0),
+                                      _buildTextTitle('Account'),
+                                      _buildDivider(),
+                                      _buildTextRow("Two-Factor Authentication",
+                                          Icons.arrow_forward_ios),
+                                      _buildSpacer(20.0),
+                                      _buildTextRow("Mobile Data Use",
+                                          Icons.arrow_forward_ios),
+                                      _buildSpacer(20.0),
+                                      _buildTextRowMore('Language', "Light",
+                                          Icons.arrow_forward_ios),
+                                      _buildSpacer(40.0),
+                                      _buildTextTitle('Support'),
+                                      _buildDivider(),
+                                      _buildSimpleText('Call Us'),
+                                      _buildSpacer(20.0),
+                                      _buildSimpleText('Feedback'),
+                                    ],
+                                  ),
                                 ),
-                              ),
-                            ],
-                          ),
-                        )),
-                  ),
-                ),
-
-                ///Image Avatar
-                Padding(
-                  padding: const EdgeInsets.only(left: 28.0),
-                  child: Container(
-                    width: 70,
-                    height: 70,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black26,
-                          blurRadius: 8.0,
-                          offset: Offset(0.0, 5.0),
-                        ),
-                      ],
+                              ],
+                            ),
+                          )),
                     ),
-                    child: Padding(
-                      padding: EdgeInsets.all(4.0),
-                      child: Center(
-                        child: Container(
-                          child: Icon(
-                            Icons.person,
-                            size: 50.0,
-                          ),
+                  ),
 
-                          /// replace your image with the Icon
+                  ///Image Avatar
+                  Padding(
+                    padding: const EdgeInsets.only(left: 28.0),
+                    child: Container(
+                      width: 70,
+                      height: 70,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 8.0,
+                            offset: Offset(0.0, 5.0),
+                          ),
+                        ],
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.all(4.0),
+                        child: Center(
+                          child: Container(
+                            child: Icon(
+                              Icons.person,
+                              size: 50.0,
+                            ),
+
+                            /// replace your image with the Icon
+                          ),
                         ),
                       ),
                     ),
                   ),
-                ),
 
-                ///Not Working yet
-                Positioned(left: 150, top: 400, child: Text("erfhdjrlietgf")),
-              ],
+                  ///Not Working yet
+                  //Positioned(left: 150, top: 400, child: Text("erfhdjrlietgf")),
+                ],
+              ),
             ),
-          ),
-        ]),
+          ],
+        ),
       ),
     );
   }
@@ -238,7 +243,7 @@ class _ProfilePageState extends State<ProfilePage> {
 
   Widget _buildDivider() {
     return Divider(
-      color: white,
+      color: grey,
     );
   }
 
