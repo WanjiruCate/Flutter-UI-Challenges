@@ -37,10 +37,10 @@ Login UI designs Inspiration from pinterest and Dribble
 <table>
 <tr>
 <td style="text-align: center">
-    <img src="screenshots/splash3_page.png" width="400"/>
+    <img src="screenshots/splash3_page.png" width="200"/>
 </td>
   <td style="text-align: center">
-<img src="screenshots/signin3_page.png" width="400"/>
+<img src="screenshots/signin3_page.png" width="200"/>
 </td>
 </tr>
 </table>
