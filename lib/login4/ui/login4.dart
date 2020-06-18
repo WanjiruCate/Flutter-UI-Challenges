@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nelson_uis/login2/utils/texts.dart';
 import 'package:nelson_uis/login4/colors/colors.dart';
 import 'package:nelson_uis/login4/ui/signup4.dart';
 

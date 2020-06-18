@@ -24,8 +24,6 @@ class _SplashPage3State extends State<SplashPage3> {
 
   @override
   Widget build(BuildContext context) {
-    var height = MediaQuery.of(context).size.height;
-    var width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: red,
       body: Stack(
