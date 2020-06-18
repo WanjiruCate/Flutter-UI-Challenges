@@ -79,7 +79,7 @@ Login UI designs Inspiration from pinterest and Dribble
 </td>
 </td>
 <td style="text-align: center">
-    <img src="screenshots/book.png" width="400"/>
+    <img src="screenshots/book.png" width="200"/>
 </td>
   <td style="text-align: center">
 <img src="screenshots/book_details.png" width="200"/>
