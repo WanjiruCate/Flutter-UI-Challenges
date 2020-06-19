@@ -36,6 +36,7 @@ class _BookDetailState extends State<BookDetail> {
                 Container(
                   height: height * .9,
                   child: ListView(
+                    scrollDirection: Axis.vertical,
                     children: <Widget>[
                       _buildListTileTwo(height),
                       _buildListTileTwo(height),
@@ -57,6 +58,10 @@ Widget _buildListTileTwo(height) {
     padding: EdgeInsets.only(left: height * .024),
     child: Card(
       elevation: 5,
+      shadowColor: Colors.blue,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(18.0),
+      ),
       child: Column(
         children: <Widget>[
           SizedBox(
@@ -116,12 +121,19 @@ Widget _buildListTileTwo(height) {
                 stops: [0, 1],
               ),
             ),
-            child: FlatButton(
+            child: MaterialButton(
               color: Colors.blue,
+              //  clipBehavior: Clip.hardEdge,
               onPressed: () {},
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(7.0),
+                  side: BorderSide(color: Colors.blue)),
               child: Text(
                 'READ MORE',
-                style: TextStyle(color: white),
+                style: TextStyle(
+                  color: white,
+                  //fontSize: 19,
+                ),
               ),
             ),
           ),
@@ -315,3 +327,63 @@ Widget _buildHorizontalListTwo(height) {
     ),
   );
 }
+
+// Widget _buildContainer() {
+//   return Card(
+//     elevation: 5,
+//     child: Column(
+//       children: <Widget>[
+//         Row(
+//           children: <Widget>[
+//             Flexible(
+//               flex: 1,
+//               child: Container(
+//                 height: 100,
+//                 decoration: BoxDecoration(
+//                   image: DecorationImage(
+//                     image: AssetImage('assets/novel4.jpg'),
+//                   ),
+//                 ),
+//                 //   width: 160.0,
+//               ),
+//             ),
+//             Flexible(
+//               flex: 2,
+//               child: Column(
+//                 children: <Widget>[
+//                   Text(
+//                     'International Travel',
+//                     style: TextStyle(
+//                       fontSize: 28,
+//                       fontWeight: FontWeight.bold,
+//                     ),
+//                   ),
+//                   SizedBox(height: 10),
+//                   Text(
+//                     "I’m just working on a little project here at Zajno creating a mobile app for a bookstore. Decided to share the first version with you to get your opinion on thi",
+//                     textAlign: TextAlign.justify,
+//                   ),
+//                 ],
+//               ),
+//             )
+//           ],
+//         ),
+//         MaterialButton(
+//           color: Colors.blue,
+//           //  clipBehavior: Clip.hardEdge,
+//           onPressed: () {},
+//           shape: RoundedRectangleBorder(
+//               borderRadius: BorderRadius.circular(7.0),
+//               side: BorderSide(color: Colors.blue)),
+//           child: Text(
+//             'READ MORE',
+//             style: TextStyle(
+//               color: white,
+//               //fontSize: 19,
+//             ),
+//           ),
+//         ),
+//       ],
+//     ),
+//   );
+// }
